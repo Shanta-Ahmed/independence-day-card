@@ -1,0 +1,35 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    color: rgb(196, 199, 196);
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    transition: font-size 3s, transform 3s, background-image 3s;
+    /* background: linear-gradient(to right, #00C9FF, #92FE9D); */
+    background-image: url("https://media-eng.dhakatribune.com/uploads/2020/03/courtesy-of-anwar-hossain-foundation-copy-1584848590737.jpg");
+    background-size: cover;
+}
+
+p {
+    margin: 40px;
+}
+
+.container:hover {
+    font-size: 70px;
+    transform: rotate(360deg);
+    color: #fff;
+    background-image: url("https://www.eventstodayz.com/wp-content/uploads/2018/03/image-for-bangladesh-flag.jpg");
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
